@@ -64,3 +64,47 @@ img {
   width: 300px;
   border: solid 2px #03071e;
 }
+
+.about-me-btn-right {
+  width: 450px;
+  margin-right: -100px;
+  background: #f9dcc4;
+  cursor: pointer;
+  border: none;
+  padding: 12px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.about-me-btn-right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #001d3d, #0081a7, #f07167, #0081a7, #001d3d, #0081a7, #f07167, #0081a7
+  );
+  background-size: 800%;
+  border-radius: 10px;
+  filter: blur(2px);
+  animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
