@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: #d3d3d3;
+
 }
 
 body {
@@ -14,46 +16,15 @@ body {
 
 .about-me-btn {
   width: 450px;
-  margin-left: -100px;
-  background: #f9dcc4;
+  margin-left: -80px;
+  background: #370617;
+  color: white;
   cursor: pointer;
   border: none;
   padding: 12px 25px;
   font-size: 20px;
   font-weight: bold;
   position: relative;
-}
-
-.about-me-btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    45deg,
-    #001d3d, #0081a7, #f07167, #0081a7, #001d3d, #0081a7, #f07167, #0081a7
-  );
-  background-size: 800%;
-  border-radius: 10px;
-  filter: blur(2px);
-  animation: glowing 20s linear infinite;
-}
-
-@keyframes glowing {
-  0% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 400% 0;
-  }
-
-  100% {
-    background-position: 0 0;
-  }
 }
 
 .about-me-menu {
@@ -62,13 +33,24 @@ body {
 
 img {
   width: 300px;
-  border: solid 2px #03071e;
+  border: solid 2px #590d22;
+}
+
+li {
+  background-color: white;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: white;
 }
 
 .about-me-btn-right {
   width: 450px;
-  margin-right: -100px;
-  background: #f9dcc4;
+  margin-right: -80px;
+  background: #370617;
+  color: white;
   cursor: pointer;
   border: none;
   padding: 12px 25px;
@@ -77,34 +59,22 @@ img {
   position: relative;
 }
 
-.about-me-btn-right::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    45deg,
-    #001d3d, #0081a7, #f07167, #0081a7, #001d3d, #0081a7, #f07167, #0081a7
-  );
-  background-size: 800%;
-  border-radius: 10px;
-  filter: blur(2px);
-  animation: glowing 20s linear infinite;
+.middle-section {
+  padding-top: 70px;
 }
 
-@keyframes glowing {
-  0% {
-    background-position: 0 0;
-  }
+.education-col {
+  margin-right: 50px;
+  margin-left: -30px;
+}
 
-  50% {
-    background-position: 400% 0;
-  }
+.laboral-col {
+  margin-right: -30px;
+  margin-left: 50px;
+}
 
-  100% {
-    background-position: 0 0;
-  }
+h4 {
+  padding: 5px;
+  border: 2.5px solid #590d22;
+  border-radius: 18px;
 }
