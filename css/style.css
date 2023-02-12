@@ -31,7 +31,7 @@ body {
   width: 450px;
 }
 
-img {
+.img-profile {
   width: 300px;
   border: solid 2px #590d22;
 }
@@ -40,7 +40,7 @@ li {
   background-color: white;
 }
 
-span {
+.span-contact {
   text-decoration: underline;
   font-weight: bold;
   background-color: white;
@@ -59,22 +59,61 @@ span {
   position: relative;
 }
 
-.middle-section {
+.second-section {
   padding-top: 70px;
 }
 
 .education-col {
-  margin-right: 50px;
+  margin-right: 40px;
   margin-left: -30px;
+  padding-top: 20px;
 }
 
 .laboral-col {
   margin-right: -30px;
-  margin-left: 50px;
+  margin-left: 40px;
+  padding: 20px 100px;
 }
 
-h4 {
+.second-section-title {
   padding: 5px;
   border: 2.5px solid #590d22;
   border-radius: 18px;
+}
+
+.third-section {
+  padding-top: 70px;
+  width: 100%;
+}
+
+.section-jobs-title {
+  width: 350px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 5px;
+  border: 2.5px solid #590d22;
+  border-radius: 18px;
+}
+
+.card-style {
+  width: 350px;
+  margin: 0;
+  opacity: .7;
+  transition: .5s ease;
+}
+
+.card-style:hover{
+  cursor: crosshair;
+  width: 370px;
+  opacity: 1;
+  filter: contrast(110%);
+  border: 2px solid #335c67;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.card-text:hover {
+  font-size: 18px;
 }
