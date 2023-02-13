@@ -36,6 +36,12 @@ body {
   border: solid 2px #590d22;
 }
 
+.text-img {
+  font-size: 28px;
+  font-weight: bold;
+  color: #102542;
+}
+
 li {
   background-color: white;
 }
@@ -60,7 +66,7 @@ li {
 }
 
 .second-section {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 .education-col {
@@ -138,3 +144,18 @@ li {
   border-radius: 18px;
 }
 
+.footer-container {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.footer-text {
+  background-color: #220901;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+
+.span-footer {
+  background-color: #220901;
+}
