@@ -6,12 +6,12 @@
 }
 
 body {
-  width: auto;
-  height: 100%;
+  width: 100%;
 }
 
 .topSection {
   margin-top: 25px;
+  height: 100%;
 }
 
 .about-me-btn {
@@ -86,6 +86,10 @@ li {
   width: 100%;
 }
 
+.cards-container {
+  height: 580px;
+}
+
 .section-jobs-title {
   width: 350px;
   text-align: center;
@@ -117,3 +121,20 @@ li {
 .card-text:hover {
   font-size: 17px;
 }
+
+.fourth-section {
+  width: 100%;
+  padding-top: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.fourth-section-title {
+  width: 350px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 5px;
+  border: 2.5px solid #590d22;
+  border-radius: 18px;
+}
+
