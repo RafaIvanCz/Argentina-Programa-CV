@@ -21,7 +21,7 @@
             </div>
             <div class="col">
               <img src="./assets/PictureCV.jpeg" alt="PictureCV" class="img-profile rounded-circle">
-              <p class="text-img">Iván Cruz<br>Desarrollador Front-end</p>
+              <button class="text-img img-btn rounded" id="img-button">Me presento</button>
             </div>
             <div class="col dropdown">
               <button class="dropdown-toggle about-me-btn-right rounded" type="button" data-bs-toggle="dropdown" aria-expanded="false">Información de Contacto</button>
@@ -173,18 +173,21 @@
             </tbody>
           </table>
         </div>
-        <div class="col ms-4 me-5 form-container">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <div class="col ms-4 me-5 form-container rounded">
+          <div class="mb-1">
+            <label for="exampleFormControlInput1" class="form-label" id="nameForm">Nombre</label>
             <input type="name" class="form-control fw-bold" id="exampleFormControlInput1" placeholder="Nombre">
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control fw-bold" id="exampleFormControlInput1" placeholder="name@example.com">
+          <div class="mb-1">
+            <label for="exampleFormControlInput1" class="form-label" >Email</label>
+            <input type="email" name="email" class="form-control fw-bold" id="correo" onchange="validarEmail(document.getElementById('correo').value)" placeholder="name@example.com" required>
           </div>
-          <div class="mb-3">
+          <div class="mb-1">
             <label for="exampleFormControlTextarea1" class="form-label">Dejame aquí tu mensaje</label>
             <textarea class="form-control fw-bold" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+          </div>
+          <div class="d-flex justify-content-end">
+            <input class="button-submit rounded" type="submit" value="Enviar" onclick="">
           </div>
         </div>
       </section>

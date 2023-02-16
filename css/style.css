@@ -36,10 +36,20 @@ body {
   border: solid 2px #590d22;
 }
 
+.img-btn {
+  width: 300px;
+  background: #370617;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+  padding: 5px;
+}
+
 .text-img {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: bold;
-  color: #102542;
+  /* color: #102542; */
 }
 
 li {
@@ -130,6 +140,7 @@ li {
 
 .fourth-section {
   width: 100%;
+  height: auto;
   padding-top: 15px;
 }
 
@@ -143,9 +154,20 @@ li {
 }
 
 .form-container {
+  height: 320px;
   margin-bottom: 15px;
   border: 2px solid #220901;
   font-weight: bold;
+}
+
+.button-submit {
+  width: 150px;
+  background: #370617;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+  padding: 5px 0;
 }
 
 .footer-container {
