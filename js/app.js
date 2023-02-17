@@ -7,8 +7,8 @@ document.getElementById('img-button').onclick = function() {
 
 function validarEmail(email) {
   const regExEmail =  /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
-  const esValido = regExEmail.test(email);
-  if (esValido === true) {
+  const emailValido = regExEmail.test(email);
+  if (emailValido === true) {
     alert('El email es válido')
   } else {
     alert('El email NO es válido')
