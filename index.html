@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icono-CV.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <title>Curriculum Vitae</title>
@@ -20,6 +21,7 @@
               </div>
             </div>
             <div class="col">
+              <div class="text-img saludo rounded" id="saludo-prompt"></div>
               <img src="./assets/PictureCV.jpeg" alt="PictureCV" class="img-profile rounded-circle">
               <button class="text-img img-btn rounded" id="img-button">Me presento</button>
             </div>
@@ -175,15 +177,15 @@
         </div>
         <div class="col ms-4 me-5 form-container rounded">
           <div class="mb-1">
-            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <label for="exampleFormControlInput1" class="form-label">Nombre 🖋</label>
             <input type="name" class="form-control fw-bold" id="name" placeholder="Nombre">
           </div>
           <div class="mb-1">
-            <label for="exampleFormControlInput1" class="form-label" >Email</label>
-            <input type="email" name="email" class="form-control fw-bold" id="correo" onchange="validarEmail(document.getElementById('correo').value)" placeholder="name@example.com" required>
+            <label for="exampleFormControlInput1" class="form-label" >Email ✉</label>
+            <input type="email" name="email" class="form-control fw-bold" id="correo" onchange="validarEmail(document.getElementById('correo').value)" placeholder="nombre@ejemplo.com" required>
           </div>
           <div class="mb-1">
-            <label for="exampleFormControlTextarea1" class="form-label">Dejame aquí tu mensaje</label>
+            <label for="exampleFormControlTextarea1" class="form-label">Dejame aquí tu mensaje 👇</label>
             <textarea class="form-control fw-bold" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
           </div>
           <div class="d-flex justify-content-end">
